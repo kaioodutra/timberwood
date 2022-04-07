@@ -1,0 +1,82 @@
+/* GENERAL CONFIGS */
+
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: padding-box;
+  background-clip: border-box;
+  width: 6rem;
+  height: 6rem;
+}
+
+.icon_img {
+  border-radius: 50%;
+}
+
+.icon_1x {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon_2x {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon_3x {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon_4x {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.icon_5x {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon_lg {
+  width: 8rem;
+  height: 8rem;
+}
+
+.icon_xl {
+  width: 12rem;
+  height: 12rem;
+}
+
+.icon_email {
+  background-image: url(../assets/icons/contacts/email.svg);
+}
+
+.icon_telephone {
+  background-image: url(../assets/icons/contacts/telephone.svg);
+}
+
+.icon_smartphone {
+  background-image: url(../assets/icons/contacts/smartphone.svg);
+}
+
+.icon_email_light {
+  background-image: url(../assets/icons/contacts/email_light.svg);
+}
+
+.icon_telephone_light {
+  background-image: url(../assets/icons/contacts/telephone_light.svg);
+}
+
+.icon_smartphone_light {
+  background-image: url(../assets/icons/contacts/smartphone_light.svg);
+}
+
+.icon_quality_policy {
+  background-image: url(../assets/icons/quality_policy.svg);
+}
+
+.icon_arrow_down {
+  background-image: url(../assets/icons/arrow_down.svg);
+}

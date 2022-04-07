@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Grupo_100" data-name="Grupo 100" transform="translate(-47 -3817)">
+    <g id="Retângulo_51" data-name="Retângulo 51" transform="translate(47 3817)" fill="none" stroke="#000f50" stroke-width="3">
+      <rect width="50" height="50" rx="25" stroke="none"/>
+      <rect x="1.5" y="1.5" width="47" height="47" rx="23.5" fill="none"/>
+    </g>
+    <path id="Icon_material-local-phone" data-name="Icon material-local-phone" d="M9.528,15.319a21.04,21.04,0,0,0,9.153,9.153l3.056-3.056a1.381,1.381,0,0,1,1.417-.333,15.843,15.843,0,0,0,4.958.792A1.393,1.393,0,0,1,29.5,23.264v4.847A1.393,1.393,0,0,1,28.111,29.5,23.609,23.609,0,0,1,4.5,5.889,1.393,1.393,0,0,1,5.889,4.5H10.75a1.393,1.393,0,0,1,1.389,1.389,15.778,15.778,0,0,0,.792,4.958,1.394,1.394,0,0,1-.347,1.417L9.528,15.319Z" transform="translate(55 3825)" fill="#000f50"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Grupo_101" data-name="Grupo 101" transform="translate(-47 -3897)">
+    <g id="Retângulo_50" data-name="Retângulo 50" transform="translate(47 3897)" fill="none" stroke="#000f50" stroke-width="3">
+      <rect width="50" height="50" rx="25" stroke="none"/>
+      <rect x="1.5" y="1.5" width="47" height="47" rx="23.5" fill="none"/>
+    </g>
+    <path id="Icon_material-phone-android" data-name="Icon material-phone-android" d="M22.5,1.5H11.591A4.085,4.085,0,0,0,7.5,5.591V27.409A4.085,4.085,0,0,0,11.591,31.5H22.5a4.085,4.085,0,0,0,4.091-4.091V5.591A4.085,4.085,0,0,0,22.5,1.5ZM19.773,28.773H14.318V27.409h5.455ZM24.2,24.682H9.886V5.591H24.2Z" transform="translate(54.955 3905.5)" fill="#000f50"/>
+  </g>
+</svg>
