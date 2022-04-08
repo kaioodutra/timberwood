@@ -3,18 +3,12 @@
 <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
-	.st1{fill:none;stroke:#000F50;stroke-width:3;}
-	.st2{fill:#000F50;}
+	.st0{fill:#313536;}
 </style>
-<g id="Grupo_99" transform="translate(-47 -3737)">
-	<g id="Retângulo_52" transform="translate(47 3737)">
-		<path class="st0" d="M25,0L25,0c13.8,0,25,11.2,25,25l0,0c0,13.8-11.2,25-25,25l0,0C11.2,50,0,38.8,0,25l0,0C0,11.2,11.2,0,25,0z"
-			/>
-		<path class="st1" d="M25,1.5L25,1.5C38,1.5,48.5,12,48.5,25l0,0C48.5,38,38,48.5,25,48.5l0,0C12,48.5,1.5,38,1.5,25l0,0
-			C1.5,12,12,1.5,25,1.5z"/>
-	</g>
-	<path id="Icon_material-mail-outline" class="st2" d="M84,3750H60c-1.7,0-3,1.3-3,3l0,18c0,1.7,1.3,3,3,3h24c1.7,0,3-1.3,3-3v-18
-		C87,3751.3,85.7,3750,84,3750z M84,3771H60v-15l12,7.5l12-7.5V3771z M72,3760.5l-12-7.5h24L72,3760.5z"/>
+<g>
+	<path class="st0" d="M25,50C11.2,50,0,38.8,0,25S11.2,0,25,0s25,11.2,25,25S38.8,50,25,50z M25,3C12.9,3,3,12.9,3,25s9.9,22,22,22
+		s22-9.9,22-22S37.1,3,25,3z"/>
 </g>
+<path id="Icon_material-mail-outline" class="st0" d="M37,13H13c-1.7,0-3,1.3-3,3v18c0,1.7,1.3,3,3,3h24c1.7,0,3-1.3,3-3V16
+	C40,14.3,38.7,13,37,13z M37,34H13V19l12,7.5L37,19V34z M25,23.5L13,16h24L25,23.5z"/>
 </svg>

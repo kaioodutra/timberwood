@@ -129,6 +129,24 @@ nav.nav_full .container li a.nav-link {
   padding-bottom: 9rem;
 }
 
+.project_header_bg {
+  background-color: #cdcdcd;
+}
+
+.project_header_content {
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+}
+
+.project_detail_bg {
+  background-color: #e6e6e6;
+}
+
+.project_detail_content {
+  padding-top: 5rem;
+  padding-bottom: 11rem;
+}
+
 .politics_bg {
   background-color: #e6e6e6;
 }
@@ -167,7 +185,7 @@ nav.nav_full .container li a.nav-link {
 }
 
 .footer_content .logo {
-  max-height: 200px;
+  max-height: 150px;
 }
 
 .section_bg_primary {
@@ -428,13 +446,13 @@ nav.nav_full .container li a.nav-link {
 .icon_link:hover,
 .icon_link i:hover,
 .icon_link span:hover {
-  transform: scale(0.95);
+  transform: scale(1.1);
 }
 
 .icon_link:active,
 .icon_link i:active,
 .icon_link span:active {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 .alpha_9 {
@@ -488,6 +506,54 @@ nav.nav_full .container li a.nav-link {
   }
 }
 
+.lightbox_wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1004;
+}
+.lightbox_photo:hover {
+  cursor: pointer;
+}
+.expanded {
+  position: fixed;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1002;
+  box-shadow: 0 0rem 0.75rem 0.25rem rgb(0 0 0 / 40%);
+  -webkit-box-shadow: 0 0rem 0.75rem 0.25rem rgb(0 0 0 / 40%);
+  -moz-box-shadow: 0 0rem 0.75rem 0.25rem rgb(0, 0, 0, 0.4);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: #191b1b;
+  height: 100%;
+  width: 100%;
+  opacity: 0.95;
+  z-index: 1001;
+}
+
+.caption {
+  position: fixed;
+  background: #b34a36;
+  color: #e6e6e6;
+  padding: 8px;
+  border-radius: 0.25rem;
+  font-size: 14px;
+  bottom: 9%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1003;
+  box-shadow: 0 0 0.25rem 0 rgb(0 0 0 / 40%);
+  -webkit-box-shadow: 0 0 0.25rem 0 rgb(0 0 0 / 40%);
+  -moz-box-shadow: 0 0 0.25rem 0 rgb(0, 0, 0, 0.4);
+}
+
 /* Mobile (responsive) */
 
 @media (max-width: 768px) {
@@ -509,6 +575,9 @@ nav.nav_full .container li a.nav-link {
   .no_scroll {
     overflow: hidden;
   }
+  .footer_content .logo {
+    max-height: 90px;
+  }
   .intro_content {
     padding-top: 11rem;
     padding-bottom: 0;
@@ -523,6 +592,14 @@ nav.nav_full .container li a.nav-link {
   .portfolio_content {
     padding-bottom: 5rem;
     padding-bottom: 6rem;
+  }
+  .project_header_content {
+    padding-top: 9rem;
+    padding-bottom: 3rem;
+  }
+  .project_detail_content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   .politics_content {
     padding: 0 3rem;
