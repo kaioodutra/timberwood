@@ -515,6 +515,23 @@ nav.nav_full .container li a.nav-link {
 .lightbox_photo:hover {
   cursor: pointer;
 }
+.lightbox_close {
+  display: none;
+  position: fixed;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem;
+  background-color: transparent !important;
+  bottom: 12%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  z-index: 1005;
+}
+.lightbox_close:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
 .expanded {
   position: fixed;
   height: 80%;
@@ -545,7 +562,7 @@ nav.nav_full .container li a.nav-link {
   padding: 8px;
   border-radius: 0.25rem;
   font-size: 14px;
-  bottom: 9%;
+  top: 8%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1003;

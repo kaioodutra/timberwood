@@ -4,6 +4,8 @@ function FullPic(sourceFile, caption) {
 }
 
 FullPic.prototype.open = function () {
+  var closeButton = document.getElementsByClassName("lightbox_close")[0]
+  closeButton.style.display = "block"
   //This element gets appended before lightbox is faded in so that
   //elements with high z-index don't cover lightbox during fade.
   this.lightboxWrapper = document.createElement("div")
@@ -48,6 +50,11 @@ FullPic.prototype.open = function () {
   //event listener in callback function.
   var self = this
   overlayDiv.addEventListener("click", function () {
+    closeButton.style.display = "none"
+    self.close()
+  })
+  closeButton.addEventListener("click", function () {
+    closeButton.style.display = "none"
     self.close()
   })
 }
