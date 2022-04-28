@@ -40,6 +40,9 @@
             <a class="nav-link" href="#about">Sobre a Empresa</a>
           </li>
           <li class="nav-item px-2">
+            <a class="nav-link" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item px-2">
             <a class="nav-link" href="#portfolio">Projetos</a>
           </li>
           <li class="nav-item px-2">
@@ -136,6 +139,25 @@
       </div>
     </div>
   </section>
+
+  <section class="mission_bg" id="services">
+    <div class="container mission_content text-center">
+      <div class="row align-items-center">        
+        <div class="col-md-8 offset-md-2"> 
+          <h1 class="display-6 fw-ex-bolder text-light text-uppercase">
+            Serviços
+          </h1>
+          <span class="dash_center dash_secondary"></span>
+          <p>
+            <li class="text-light">Serviços de construção</li>
+            <li class="text-light">Projetos estruturais</li>
+            <li class="text-light">Elaboração de projetos: fundação, elétrica e hidráulica.</li>
+            <li class="text-light">Execução de projetos: residenciais e industriais.</li>
+          </p>
+        </div>
+      </div>     
+    </div>
+  </section> 
 
 
   <section class="portfolio_bg" id="portfolio">
@@ -257,6 +279,7 @@
             </div>
           </div>
 
+          <form method="post" onsubmit="return sendEmail()" action="includes/mailer.php">
           <div class="row mt-2 mt-md-2">
             <div class="col-lg-2">
               <a class="link_primary icon_link" href="tel:+55 11 9 3292-7090"><span class="icon icon_5x icon_smartphone"></span></a>
@@ -269,39 +292,48 @@
             </div>
           </div>          
         </div>
-
+        
         <div class="col-lg-8">
           <div class="row">
             <div class="col-md-5">
               <div class="mt-4 mt-md-0">
-                <input class="form-control" type="text" placeholder="Nome" id="name">
+                <input class="form-control" type="text" placeholder="Nome" id="name" name="name">
                 <label class="vld_contact ps-1 d-none" id="vld-name"></label>                
               </div>
               <div class="mt-4">
-                <input class="form-control" type="text" placeholder="E-mail" id="email">
+                <input class="form-control" type="text" placeholder="E-mail" id="email" name="email">
                 <label class="vld_contact ps-1 d-none" id="vld-email"></label>
               </div>
               <div class="mt-4">
-                <input class="form-control" type="text" placeholder="Telefone" id="phone">
+                <input class="form-control" type="text" placeholder="Telefone" id="phone" name="phone">
                 <label class="vld_contact ps-1 d-none" id="vld-phone"></label>
               </div>
             </div>
 
             <div class="col-md-7">
               <div class="mt-4 mt-md-0">
-                <input class="form-control" type="text" placeholder="Assunto" id="subject">
+                <input class="form-control" type="text" placeholder="Assunto" id="subject" name="subject">
                 <label class="vld_contact ps-1 d-none" id="vld-subject"></label>
               </div>
               <div class="mt-4">
-                <textarea class="form-control txt_area_contact" placeholder="Mensagem" id="message" cols="30" rows="10"></textarea>
+                <textarea class="form-control txt_area_contact" placeholder="Mensagem" id="message" name="message" cols="30" rows="10"></textarea>
                 <label class="vld_contact ps-1 d-none" id="vld-message"></label>
               </div>
+              <!-- captcha -->
+              <div class="mt-4">
+                <input class="form-control" name="number" placeholder="Quanto é 4 + 3 ?" id="captcha" name="captcha"  >
+                <label class="vld_contact ps-1 d-none" id="vld-captcha"></label>
+
+              </div>
               <div class="mt-4 d-grid gap-2">
-                <button class="btn btn-lg btn-block btn-primary" onclick="sendContact()" id="btnSendContact">Enviar</button>
+                <button class="btn btn-lg btn-block btn-primary" id="btnSendContact">Enviar</button>
               </div>
             </div>
           </div>
         </div>
+      </form>
+
+
       </div>
     </div>
   </section>
@@ -359,6 +391,8 @@
 <script src="./js/bootstrap.js"></script>
 <script src="./js/lightbox.js"></script>
 <script src="./js/style.js"></script>
-<script src="./js/contact.js"></script>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="./js/mail.js"></script>
 <script src="./js/whatsApp.js"></script>
 </html>
