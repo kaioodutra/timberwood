@@ -80,3 +80,7 @@
 .icon_close {
   background-image: url(../assets/icons/close.svg);
 }
+
+.icon_1x_1 {
+  scrollbar-darkshadow-color: aliceblue;
+}
